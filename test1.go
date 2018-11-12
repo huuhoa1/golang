@@ -12,5 +12,9 @@ func main() {
 	println(myString)
    myArray := [...]int{42, 27, 99}
    fmt.Println(myArray)
+   mySlice := myArray[:]
+   mySlice = append(mySlice, 100)
+   fmt.Println(myArray)
+   fmt.Println(mySlice)
 }
 
