@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	
 )
 var (
 	message string = "Hello Go!"
